@@ -1,0 +1,24 @@
+http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
+
+Everything came from her site, above.
+
+
+If you make changes, copy an existing file.
+Once done, run the below in the console:
+
+#locally
+library(devtools)
+document()
+install('../mahPackage')
+
+#full path
+library(devtools)
+document('H:/R/mahPackage/R')
+install('H:/R/mahPackage')
+
+
+
+
+
+Those three commands will reload the package in R.
+W00t!
